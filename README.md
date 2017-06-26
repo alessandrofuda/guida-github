@@ -1,4 +1,4 @@
-```
+
 # guida-github
 ### Appunti per utilizzo minimale di github per il deploy
 
@@ -47,4 +47,5 @@ git config --global push.default simple
   
 
 
-```
+
+
