@@ -3,6 +3,7 @@
 #### Appunti per utilizzo minimale di github per il deploy
 
 
+---
 
 
 
@@ -11,6 +12,7 @@ Create new repository --> through github web interface --> "repositories" tab --
 
 
 
+---
 
 
 ##### Only first configuration
@@ -23,6 +25,7 @@ From CLI:
 
 
 
+---
 
 
 
@@ -48,8 +51,9 @@ From CLI:
     - `git add -A`   (-A || . || *)
     - `git commit -m "Messagio di riferimento"`
     - `git push` (--> username + password github account)
-  
-  
+
+
+----------------------------------------------
 
 
 
