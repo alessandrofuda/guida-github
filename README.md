@@ -4,8 +4,12 @@
 
 
 
+
+
 ##### Optional
 Create new repository --> through github web interface --> "repositories" tab --> "New" button
+
+
 
 
 
@@ -13,6 +17,8 @@ Create new repository --> through github web interface --> "repositories" tab --
 git config --global user.email "la-propria-email"  #può essere anche quella di un altro account github
 git config --global user.name "nome-utente" #nome vostro identicativo
 git config --global push.default simple
+
+
 
 
 
