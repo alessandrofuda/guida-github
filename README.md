@@ -17,9 +17,9 @@ Create new repository --> through github web interface --> "repositories" tab --
 
 ##### Only first configuration
 From CLI:
-- `git config --global user.email "la-propria-email"  #può essere anche quella di un altro account github`
+- `git config --global user.email "la-propria-email"`  #può essere anche quella di un altro account github
 
-- `git config --global user.name "nome-utente" #nome vostro identicativo`
+- `git config --global user.name "nome-utente"` #nome vostro identicativo
 
 - `git config --global push.default simple`
 
