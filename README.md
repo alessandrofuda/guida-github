@@ -15,9 +15,12 @@ Create new repository --> through github web interface --> "repositories" tab --
 
 ##### Only first configuration
 From CLI:
-`git config --global user.email "la-propria-email"  #può essere anche quella di un altro account github`
-`git config --global user.name "nome-utente" #nome vostro identicativo`
-`git config --global push.default simple`
+- `git config --global user.email "la-propria-email"  #può essere anche quella di un altro account github`
+
+- `git config --global user.name "nome-utente" #nome vostro identicativo`
+
+- `git config --global push.default simple`
+
 
 
 
@@ -42,9 +45,9 @@ From CLI:
 
 
 4) upload new version to remote repository:
-   - `git add -A`   (-A || . || *)
-   - `git commit -m "Messagio di riferimento"`
-   - `git push` (--> username + password github account)
+    - `git add -A`   (-A || . || *)
+    - `git commit -m "Messagio di riferimento"`
+    - `git push` (--> username + password github account)
   
   
 
