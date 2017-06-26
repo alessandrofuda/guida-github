@@ -4,8 +4,7 @@
 
 
 
-Optional:
-
+###### Optional:
 Create new repository --> through github web interface --> "repositories" tab --> "New" button
 
 
@@ -24,7 +23,8 @@ git config --global push.default simple
 
 0) Go into my app folder (localhost):
   - cd /home/~/.../myapp
- 
+
+
 1) Download repository:
   - git clone <url>
 
