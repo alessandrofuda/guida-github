@@ -29,7 +29,7 @@ From CLI:
 
 
 
-##### Steps
+##### From localhost
 0) Go into my app folder (localhost):
     `cd /home/~/.../myapp`
 
@@ -55,6 +55,19 @@ From CLI:
 
 ----------------------------------------------
 
+##### From production server
 
+0)  Connect to Server via SSH
+
+1)  Go to app folder
+    `cd /home/~/.../myapp`
+    
+2)  Optional: `git init` , `git remote add origin https://github.com/.....`
+
+
+3) `git pull <origin> master`  --> <origin> = `https://github.com/.....`
+
+
+---------------------------------------------
 
 
