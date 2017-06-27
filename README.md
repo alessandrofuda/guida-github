@@ -29,7 +29,7 @@ From CLI:
 
 
 
-##### From localhost
+##### From Git to Localhost / From localhost to Git
 0) Go into my app folder (localhost):
     `cd /home/~/.../myapp`
 
@@ -55,7 +55,7 @@ From CLI:
 
 ----------------------------------------------
 
-##### From production server
+##### From Git to production server (`pull` from prod server)
 
 0)  Connect to Server via SSH
 
