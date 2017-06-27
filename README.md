@@ -67,6 +67,8 @@ From CLI:
 
 3) `git pull <origin> master`  --> `<origin>` = `https://github.com/.....`
 
+4) Clear routes/config/views caches ( `php artisan list` )
+
 
 ---------------------------------------------
 
