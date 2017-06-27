@@ -65,7 +65,7 @@ From CLI:
 2)  Optional: `git init` , `git remote add origin https://github.com/.....`
 
 
-3) `git pull <origin> master`  --> <origin> = `https://github.com/.....`
+3) `git pull <origin> master`  --> `<origin>` = `https://github.com/.....`
 
 
 ---------------------------------------------
