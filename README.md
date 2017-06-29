@@ -15,7 +15,7 @@ Create new repository --> through github web interface --> "repositories" tab --
 ---
 
 
-##### Only first configuration
+##### Only first configuration on two server: DEV SERVER & PROD SERVER
 From CLI:
 - `git config --global user.email "la-propria-email"`  #può essere anche quella di un altro account github
 
@@ -28,7 +28,7 @@ From CLI:
 ---
 
 
-
+#### ON LOCALHOST
 ##### From Git to Localhost / From localhost to Git
 0) Go into my app folder (localhost):
     `cd /home/~/.../myapp`
@@ -55,6 +55,7 @@ From CLI:
 
 ----------------------------------------------
 
+#### ON PROD SERVER
 ##### From Git to production server (`pull` from prod server)
 
 0)  Connect to Server via SSH
@@ -65,7 +66,7 @@ From CLI:
 2)  Optional: `git init` , `git remote add origin https://github.com/.....`
 
 
-3) `git pull <origin> master`  --> `<origin>` = `https://github.com/.....`
+3) `git pull <origin> master`  --> `<origin>` = `https://github.com/.....` o shortname (--> `git remote -v`)
 
 4) Clear routes/config/views caches ( `php artisan list` )
 
