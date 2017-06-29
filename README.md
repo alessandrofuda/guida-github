@@ -73,4 +73,5 @@ From CLI:
 
 ---------------------------------------------
 
+guida completa ITA: https://git-scm.com/book/it/v1/Per-Iniziare 
 
