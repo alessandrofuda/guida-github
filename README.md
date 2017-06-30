@@ -50,6 +50,10 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 - connect via SSH
 
+- `sudo su -` (--> root)
+
+- `su - <my-username>` (--> important)
+
 - install Laravel project
 
 - `cd /../../myapp`
