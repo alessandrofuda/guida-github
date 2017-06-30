@@ -54,7 +54,7 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 - `su - <my-username>` (--> important)
 
-- install Laravel project
+- install Laravel project (set/verify RIGHT permissions --> see above)
 
 - `cd /../../myapp`
 
