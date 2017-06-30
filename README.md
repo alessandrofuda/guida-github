@@ -1,6 +1,6 @@
 
 # Mini guida github
-#### Appunti per utilizzo minimale di github per il version control e deploy manuale
+#### Appunti per utilizzo minimale di github per il version control e deploy manuale  (testata con Laravel)
 
 
 ---
@@ -11,7 +11,7 @@
 
 ---
 
-(Attention! to Laravel owner/groups/permissions files and folders -- owners & groups NOT root !  --  permissions folders 755 -- permissions files 644  -- except `/storage` and `bootstrap/cache` --> `sudo chmod -R ug+rwx storage bootstrap/cache`)
+(Attention! to Laravel owner/groups/permissions files and folders -- owners & groups should NOT be root !  --  permissions folders: 755 -- permissions files: 644  -- except `/storage` and `bootstrap/cache` --> `sudo chmod -R ug+rwx storage bootstrap/cache`)
 
 ---
 
@@ -62,7 +62,7 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 
 
-
+---
 
 
 
@@ -95,13 +95,13 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 - Connect via SSH
 
-- `sudo su -` (--> root privileges) (+ optional: `su - < my-current-username >`)
+- `sudo su -` (--> root privileges) (+ optional: `su - < my-current-username >` not root privileges)
 
 - `git pull origin master`
 
 - Check for overwritten data
 
-- Clear all caches (routes/config/views..) (visit `php artisan list` )
+- Clear all Laravel caches (routes/config/views..) (visit `php artisan list` )
 
 
 ---------------------------------------------
