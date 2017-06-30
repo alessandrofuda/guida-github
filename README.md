@@ -27,6 +27,8 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 ##### b) On DEV SERVER (localhost)
 
+- install Laravel project
+
 - `cd /../../myapp`
 
 - `git init`
@@ -46,7 +48,9 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 ##### c) On PROD SERVER (remote)
 
--  connect via SSH
+- connect via SSH
+
+- install Laravel project
 
 - `cd /../../myapp`
 
@@ -72,7 +76,9 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 - `cd /home/~/.../myapp`
 
-- `git pull`
+- `git status` (for inspection)
+
+- `git pull` (sync with github repo)
 
 - ... Edit Code ... :) :) :)
 
@@ -99,7 +105,7 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 - `git pull origin master`
 
-- Check for overwritten data
+- Check for overwritten ONLINE data
 
 - Clear all Laravel caches (routes/config/views..) (visit `php artisan list` )
 
@@ -108,4 +114,6 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 
 guida completa ITA: https://git-scm.com/book/it/v1/Per-Iniziare 
+
+***
 
