@@ -102,16 +102,40 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 ### 3) Manual Deploy to PRODUCTION Server (!)
 
+- ( Before: on Local machine: `composer install --optimize-autoloader` )
 
-- Connect via SSH
 
-- `sudo su -` (--> root privileges) (+ optional: `su - < my-current-username >` not root privileges)
+- Connect to Remote via SSH
+
+- + optional: `su - < my-current-username >` --> NO root privileges!
+
+- `php artisan down`
 
 - `git pull origin master`
 
+- `composer install --optimize-autoloader`
+
+- `composer install` (load eventual new packages installed (from composer.lock)
+
+- `composer update` (ignores the composer.lock file and downloads NEW libraries added in composer.json)
+
+- `php artisan migrate --force --no-interaction` (create eventual new tables in db)
+
+- `php artisan optimize`
+
+- `php artisan config:cache` (create config cache)
+
+- `php artisan route:cache` (create routes cache)
+
+- `php artisan up`
+
 - Check for overwritten ONLINE data
 
-- Clear all Laravel caches (routes/config/views..) (visit `php artisan list` )
+
+    
+    
+    
+    
 
 
 ---------------------------------------------
