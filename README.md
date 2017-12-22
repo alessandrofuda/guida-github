@@ -91,7 +91,7 @@ Create new repository on github --> through web interface --> "repositories" tab
 - Upload new version to remote repository:
 
     - `git add .`   (-A || . || *)
-    - `git commit -m "Messagio di riferimento"`
+    - `git commit -m "Messaggio di riferimento"`
     - `git push` (--> username + password github account)
 
 
@@ -122,6 +122,8 @@ Create new repository on github --> through web interface --> "repositories" tab
 - `php artisan migrate --force --no-interaction` (create eventual new tables in db)
 
 - `php artisan optimize`
+
+- `php artisan cache:clear`
 
 - `php artisan config:cache` (create config cache)
 
