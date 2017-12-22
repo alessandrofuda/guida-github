@@ -123,11 +123,23 @@ Create new repository on github --> through web interface --> "repositories" tab
 
 - `php artisan optimize`
 
+(clear all caches)
+
+- `php artisan config:clear`
+
+- `php artisan route:clear`
+
+- `php artisan view:clear`
+
 - `php artisan cache:clear`
 
-- `php artisan config:cache` (create config cache)
+(If need Optimization: re-create caches)
 
-- `php artisan route:cache` (create routes cache)
+- `php artisan config:cache`
+
+- `php artisan route:cache` 
+
+(Imp!)
 
 - `php artisan up`
 
